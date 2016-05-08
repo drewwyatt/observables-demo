@@ -1,0 +1,1 @@
+export interface AdditionalHeaders { [id: string] : string; };
