@@ -1,4 +1,4 @@
-# Observable Examples
+# Observabl Examples
 
 [![Dependency Status](https://gemnasium.com/drewwyatt/ng2-webpack-starter.svg)](https://gemnasium.com/drewwyatt/ng2-webpack-starter)
 
