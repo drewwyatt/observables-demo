@@ -23,7 +23,7 @@ export class BarService extends AuthenticatedHttpService {
             .catch(error => this._handleError(error));
     }
     
-    private _handleError(response: Response) {
+    private _handleError(response: Response): Observable<any> {
         if(response.status === 500) {
             return Observable.of(null)
         } else {
