@@ -4,7 +4,7 @@ import {AppComponent} from './app.component';
 
 import {HTTP_PROVIDERS} from 'angular2/http';
 import {ROUTER_PROVIDERS, ROUTER_DIRECTIVES} from 'angular2/router';
-import {FORM_PROVIDERS} from 'angular2/common';
+import {FORM_PROVIDERS, COMMON_DIRECTIVES} from 'angular2/common';
 
 import 'rxjs/Rx'
 
@@ -15,6 +15,7 @@ const APPLICATION_PROVIDERS = [
 ];
 
 const APPLICATION_DIRECTIVES = [
+    COMMON_DIRECTIVES,
     ROUTER_DIRECTIVES
 ];
 

@@ -1,8 +1,5 @@
 <h1>This is the app component</h1>
-<p>I pulled in another class too!</p>
+<p>Check this out:</p>
 <ul>
-    <li><strong>ID:</strong> {{hero.id}}</li>
-    <li><strong>Name:</strong> {{hero.name}}</li>
-    <li><strong>Power:</strong> {{hero.power}}</li>
-    <li><strong>Alter-Ego:</strong> {{hero.alterEgo}}</li>
+    <li *ngFor="let response of responses">{{ response }}</li>
 </ul>
