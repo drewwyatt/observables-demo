@@ -27,15 +27,10 @@ export class AuthenticatedHttpService extends HttpService {
     }
     
     private _handle401(response: Response): Observable<any> {
-        try {
-            if(response.status === 401) {
-                // Destory the session
-                // Redirect to login page
-                // etc
-            }
-        } catch(err) {
-            console.info('AuthenticatedHttpService._handle401');
-            console.error(err);
+        if(response.status === 401) {
+            // Destory the session
+            // Redirect to login page
+            // etc
         }
         
         return Observable.throw(response);  
